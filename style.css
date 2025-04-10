@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book-page {
+  width: 800px;
+  height: 100vh;
+  /* padding: 20px 0; */
+}
+
+.page-image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sticker-sheet {
+  width: 300px;
+  padding: 20px;
+  background-color: blueviolet;
+}
